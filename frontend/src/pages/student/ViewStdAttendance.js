@@ -160,7 +160,7 @@ const ViewStdAttendance = () => {
                             {selectedSection === 'table' && renderTableSection()}
                             {selectedSection === 'chart' && renderChartSection()}
 
-                            <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
+                            {/* <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
                                 <BottomNavigation value={selectedSection} onChange={handleSectionChange} showLabels>
                                     <BottomNavigationAction
                                         label="Table"
@@ -173,7 +173,7 @@ const ViewStdAttendance = () => {
                                         icon={selectedSection === 'chart' ? <InsertChartIcon /> : <InsertChartOutlinedIcon />}
                                     />
                                 </BottomNavigation>
-                            </Paper>
+                            </Paper> */}
                         </>
                         :
                         <>
