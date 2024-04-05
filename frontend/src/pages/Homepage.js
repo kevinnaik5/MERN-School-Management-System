@@ -9,17 +9,13 @@ const Homepage = () => {
     return (
         <StyledContainer>
             <Grid container spacing={0}>
-                <Grid item xs={12} md={6}>
+                {/* <Grid item xs={12} md={6}>
                     <img src={Students} alt="students" style={{ width: '100%' }} />
-                </Grid>
-                <Grid item xs={12} md={6}>
+                </Grid> */}
+                <Grid item xs={12} md={60}>
                     <StyledPaper elevation={3}>
                         <StyledTitle>
-                            Welcome to
-                            <br />
-                            School Management
-                            <br />
-                            System
+                            School Portal
                         </StyledTitle>
                         <StyledText>
                             Streamline school management, class organization, and add students and faculty.
